@@ -1,4 +1,20 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
-  background: green; }
+header {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: white;
+  padding: 1rem 0; }
+  header .form-group {
+    display: flex; }
+    @media (max-width: 575px) {
+      header .form-group {
+        margin-bottom: .25rem; } }
+  header .btn-light {
+    height: 2.375rem; }
+
+.form-group {
+  padding: 0 .125rem; }
+
+.checkbox {
+  float: left;
+  width: 100%; }
+  .checkbox label {
+    justify-content: left; }
