@@ -64,12 +64,19 @@ header {
     left: -16px;
     top: 50%; }
 
+.post-actions {
+  margin: .313rem; }
+
 .comment-form .form-group {
   width: calc(100% - 56px);
   margin-bottom: 0; }
 
 .comment-form input[type='text'] {
   width: 100%; }
+
+.comment-avatar img {
+  width: 2.5rem;
+  margin-right: .313rem; }
 
 .comment {
   border: 1px solid #ccc;
@@ -78,3 +85,13 @@ header {
   margin: .313rem 0;
   overflow: auto;
   width: 100%; }
+
+.friends {
+  margin: 0 -.313rem 1.4rem; }
+  .friends .list-inline {
+    text-align: center; }
+  .friends li {
+    margin: 0;
+    padding: .25rem .313rem; }
+  .friends img {
+    width: 4rem; }
